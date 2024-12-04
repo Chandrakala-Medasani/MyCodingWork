@@ -8,7 +8,8 @@ public class ConstructorChainingExample {
     int b;
 
     ConstructorChainingExample(){
-            System.out.println("Default constructor");
+
+        System.out.println("Default constructor");
     }
 
     ConstructorChainingExample(int a, String s){
@@ -20,11 +21,14 @@ public class ConstructorChainingExample {
     }
 
     ConstructorChainingExample(int a, String s, int b){
-        this(a,s);
-        System.out.println("another Parameterised constructor");
+      this(a,s);
+      System.out.println("another Parameterised constructor");
+
         this.a = a;
         this.s = s;
         this.b=b;
+
+
     }
 
     public void disp(){

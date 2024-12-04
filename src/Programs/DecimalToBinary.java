@@ -10,14 +10,17 @@ public class DecimalToBinary {
         Scanner scr = new Scanner(System.in);
         int n = scr.nextInt();
 
-        int rem= 0 ;
+        StringBuffer sb = new StringBuffer();
 
         while(n>0){
-
-            int quo = n/2;
-            rem = n%2;
-
+            int rem = n%2;
+            sb.append(rem);
+            n/=2;
         }
+
+        System.out.print(sb.reverse());
 
     }
 }
+
+

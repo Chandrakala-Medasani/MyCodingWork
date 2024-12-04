@@ -1,9 +1,8 @@
 package Programs;
 
-public class TrimLength {
+public class LengthMethodInStrings {
     public static void main(String[] args){
-        String s = "Chandra Kala  ";
+        String s = "chandrakala";
         System.out.println(s.length());
-        System.out.println(s.trim().length());
     }
 }
