@@ -13,7 +13,7 @@ public class ConstructorChainingExample {
     }
 
     ConstructorChainingExample(int a, String s){
-        this();
+       this();
         System.out.println("Parameterised constructor");
         this.a = a;
         this.s = s;
@@ -21,7 +21,7 @@ public class ConstructorChainingExample {
     }
 
     ConstructorChainingExample(int a, String s, int b){
-      this(a,s);
+     this(a,s);
       System.out.println("another Parameterised constructor");
 
         this.a = a;

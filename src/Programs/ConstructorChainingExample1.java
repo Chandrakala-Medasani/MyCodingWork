@@ -6,7 +6,7 @@ public class ConstructorChainingExample1 {
 
     public static void main(String[] args){
 
-        ConstructorChainingExample c = new ConstructorChainingExample(10,"chandu",20);
+        ConstructorChainingExample c = new ConstructorChainingExample(10,"chandu");
         c.disp();
 
     }

@@ -1,34 +1,37 @@
 package Programs;
 
-public class POJOClass {
+
+
+public class POJOClass  {
     private int age;
     private String name;
     private String color;
-   /* public static void main(String[] args){
 
-    }*/
+
 
     public int getAge() {
         return age;
     }
 
     public void setAge(int age) {
-        this.age = age;
+       this.age = age;
     }
 
     public String getName() {
         return name;
     }
 
-    public void setName(String name) {
-        this.name = name;
+   public void setName(String name) {
+       this.name = name;
     }
 
     public String getColor() {
         return color;
     }
 
-    public void setColor(String color) {
-        this.color = color;
+   public void setColor(String color) {
+      this.color = color;
     }
-}
+
+    }
+

@@ -15,6 +15,5 @@ public class POJOClassEx {
         System.out.println(p.getName());
         p.setColor(color);
         System.out.println(p.getColor());
-
     }
 }
