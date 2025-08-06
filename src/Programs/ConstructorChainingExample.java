@@ -26,7 +26,7 @@ public class ConstructorChainingExample {
 
         this.a = a;
         this.s = s;
-        this.b=b;
+        this.b = b;
 
 
     }

@@ -1,7 +1,7 @@
 package HackerRank;
 import java.util.Scanner;
 
-public class Reverse {
+public class ReverseOfANumber {
 
     public static void main(String[] args){
 

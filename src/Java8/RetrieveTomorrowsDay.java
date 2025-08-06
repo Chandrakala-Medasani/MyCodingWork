@@ -8,6 +8,6 @@ public class RetrieveTomorrowsDay {
 
         LocalDate ld = LocalDate.now();
 
-        
+
     }
 }

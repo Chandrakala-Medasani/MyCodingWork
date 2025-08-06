@@ -6,14 +6,14 @@ public class ArrayIndexOutOfBoundExceptionsProgram {
 
         int[] arr = {9,8,7,6};
 
-        try {
+        //try {
 
             System.out.println(arr[5]);
-        }
+        //}
 
-        catch(ArrayIndexOutOfBoundsException ai){
+      //  catch(ArrayIndexOutOfBoundsException ai){
 
-            System.out.println("Program executed!!!!");
-        }
+          //  System.out.println("Program executed!!!!");
+       // }
     }
 }

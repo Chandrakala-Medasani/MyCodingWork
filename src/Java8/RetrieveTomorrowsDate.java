@@ -7,7 +7,7 @@ public class RetrieveTomorrowsDate {
     public static void main(String[] args){
 
         LocalDate ld = LocalDate.now();
-        System.out.println(ld.plusDays(1));
+        System.out.println(ld.plusDays(3));
     }
 }
 
